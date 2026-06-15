@@ -26,6 +26,10 @@ Usuário: `user`
 
 Senha: `pass`
 
+## Resultado final
+
+<img src="./img/img001.png" />
+
 ## ▶️ Como Executar
 
 1. Abra o arquivo `index.html` em um navegador.
