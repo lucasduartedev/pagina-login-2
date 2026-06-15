@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altenticação</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    
+  </head>
+
+  <body>
+    <div class="login-container">
+      <div class="logo">
+        <h1>Autenticação</h1>
+        <p>Faça o login para continuar</p>
+      </div>
+
+      <div id="msgErro" class="message error"></div>
+      <div id="msgSucesso" class="message success"></div>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label>Usuário</label>
+          <input type="text" id="usuario" placeholder="Digite seu usuário" />
+        </div>
+
+        <div class="form-group">
+          <label>Senha</label>
+          <input type="password" id="senha" placeholder="Digite sua senha" />
+        </div>
+
+        <button type="submit" class="btn-login">Entrar</button>
+
+        <div class="loading">Validando credenciais...</div>
+      </form>
+
+      <div class="credentials">
+        <strong>Credenciais de teste:</strong><br />
+        Usuário: user<br />
+        Senha: pass
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>
